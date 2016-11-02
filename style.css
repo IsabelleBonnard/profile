@@ -1,0 +1,114 @@
+/* Here goes your CSS */
+body {
+  background-color: #CCCC99;
+  font-family: Montserrat 400;
+  color: #999966 ;
+  font-size:20px ;
+  line-height: 3px ;
+  text-align: center;
+}
+
+h1 {
+  color: #454545;
+  font-size: 20px ;
+  font-family: Open Sans 400;
+  background-color: #FFFAEF;
+}
+
+h2, h3 {
+  color: #354545;
+  font-family: Montserrat 400;
+  font-size: 15px ;
+  font-family: 'Lora', serif;
+}
+
+p, ul {
+  color: grey;
+  font-size: 10px ;
+  font-family: 'Lora', serif;
+  list-style: none;
+}
+
+.list{
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-right: 0px;
+  padding-left: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #339DC3;
+}
+
+a:hover {
+  color: #383838;
+}
+
+table {
+  color: white;
+  font-size: 10px ;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 10px;
+}
+
+td {
+  font-size: 10px ;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  padding: 2px 20px;
+}
+
+.padding {
+  padding: 5px;
+}
+
+.large_padding {
+  padding: 15px;
+  box-shadow: 1px 1px 1px 1px #292D33;
+}
+
+.card {
+  padding: 2px;
+  margin: 0 auto;
+  padding: 20 px;
+}
+
+.background-grey{
+  background-color: #292D33;
+  box-shadow: 1px 1px 1px 1px #78909B;
+}
+
+.img-round{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  box-shadow: 1px 1px 1px 1px #78909B;
+}
+
+.img-rounded{
+  border-radius: 20%;
+  height: 50px;
+  width: 50px;
+}
+
+.grey-border{
+  border-style: solid;
+  border-color: #5F5F5F;
+}
+
+.container{
+  width: 500px;
+  margin: 0 auto;
+  padding: 20 px;
+}
+
+.black-border{
+  border-style: solid;
+  border-color: #333333;
+}
+
+.padding-right {
+  padding-right: 50px;
+}
